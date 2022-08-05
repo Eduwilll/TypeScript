@@ -3,8 +3,7 @@ class Motor {
     private cilindros: number;
     private potencia: number;
     private combustivel: string;
-    constructor(litros: number, cilindros: number, potencia: number,
-        combustivel: string) {
+    constructor(litros: number, cilindros: number, potencia: number,combustivel: string) {
         this.litros = litros;
         this.cilindros = cilindros;
         this.potencia = potencia;
