@@ -3,7 +3,7 @@ let express = require('express');
 let app = express();
 let servidor = app.listen(8080, function () {
     let porta = servidor.address().port;
-    console.log("Servidor executando na porta %s", porta);
+    console.log("Servidor executando na porta localhost:%s", porta);
 });
 app.get('/', function (req: any, res: any) {
     fs.readFile('ola.html', function (erro: any, dado: any) {
